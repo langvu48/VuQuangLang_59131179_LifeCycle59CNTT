@@ -1,0 +1,14 @@
+	Câu 4 : Cho bi?t các phuong th?c vòng d?i du?c g?i khi ?ng d?ng dang ch?y và ngu?i s?
+                d?ng b?m vào nút back sau dó m? l?i ?ng d?ng.
+           - Sau khi ?n phím Back: onPause() -> onStop() -> onDestroy()
+           - Khi m? l?i ?ng d?ng: onCreate() -> onStart() -> onResume()
+
+        Câu 5 : Các phuong th?c vòng d?i du?c g?i khi ?ng d?ng dang ch?y và ngu?i s? d?ng b?m vào nút Home và sau dó m? l?i ?ng d?ng:
+           - Khi ngu?i dùng ?n phím Home: onPause() -> onStop()
+           - Khi m? l?i ?ng d?ng: onRestart() -> onStart() -> onResume()
+
+        Câu 6: C?n luu thông tin c?a ?ng d?ng d? khôi ph?c l?i tr?ng thái hi?n th? c?a ?ng d?ng khi ch?y l?i ?ng d?ng thì c?n ph?i th?c
+            hi?n trong phuong th?c vòng d?i: onPause().
+         
+        - Ð? luu l?i thông tin tru?c khi b? h? th?ng b? h?y, mà trong 3 phuong th?c onPause(), onStop(), onDestroy() thì ch? onPause() m?i du?c g?i tru?c khi ?ng d?ng b? h?y.    
+          2 phuong th?c còn s? không du?c g?i. 
